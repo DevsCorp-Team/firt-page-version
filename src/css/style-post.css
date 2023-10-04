@@ -1,0 +1,151 @@
+* {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+    width: 60px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    border-right: 0.5px solid rgb(229,229,229);
+    text-align: center;
+    display: block;
+}
+
+header img {
+    margin-top: 15px;
+    width: 35px;
+}
+
+header div {
+    width: 100%;
+    text-align: center;
+}
+
+.partOne {
+    margin-top: 70px;
+    width: 100%;
+}
+
+.partOne ul {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+}
+
+.partOne ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.partOne ul li button {
+    background-color: transparent;
+    border: none;
+    margin-top: 30px;
+    margin-left: -200%;
+}
+
+hr {
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    margin-left: -32%;
+    color: rgb(229,229,229);
+    background-color: rgb(229,229,229);
+    margin-top: 30px;
+}
+
+/*rgb(51,51,51)*/
+
+.write {
+    margin-top: 25px;
+}
+
+.partTwo p a img {
+    position: fixed;
+    bottom: 10px;
+    left: 15px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+main section {
+    display: none;
+  }
+
+  .active {
+    font-variation-settings:
+  'FILL' 1;
+  }
+
+  .inactive {
+    color: rgb(111,111,111);
+  }
+
+  #contenido #post {
+    margin-left: 15%;
+  }
+  #tit {
+    font-size: 3rem;
+  }
+
+  #photoUser {
+    width: 50px;
+  }
+
+  #infor {
+    margin-top: 20px;
+  }
+
+  #nameUser {
+    font-size: 16px;
+    margin-left: 7px;
+  }
+
+  #extra {
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(229,229,229);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+
+  #text {
+    font-size: 19px;
+    width: 100%;
+  }
+
+  #preText {
+    width: 100%;
+  }
+
+  .poto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .poto p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .poto p img {
+    width: 80%;
+    height: 140px;
+  }
+  
+  @media (max-width: 450px) {
+    #contenido {
+        width: 82%;
+        margin-left: 6%;
+    }
+
+    #text {
+        font-size: 17px;
+    }
+  }
